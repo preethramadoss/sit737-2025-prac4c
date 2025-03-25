@@ -11,7 +11,9 @@ This microservice provides basic arithmetic operations (**addition, subtraction,
 **Installation & Setup**
 
 **Prerequisites**
+
 Ensure you have:
+
 -> [Node.js](https://nodejs.org/en/download/) installed (v14 or later).
 
 -> [Git](https://git-scm.com/) installed.
