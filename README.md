@@ -126,13 +126,22 @@ Response:
 { "statuscode": 500, "msg": "Modulus by zero is not allowed" }
 
 **Error Handling**
-**Error Case	Example Request	Response**
 
-Missing n1 or n2	/add?n1=10	{ "statuscode": 500, "msg": "Invalid input values" }
+**Error Case** Missing n1 or n2	**Example Request** /add?n1=10	**Response** { "statuscode": 500, "msg": "Invalid input values" }
 
-Non-numeric input	/add?n1=abc&n2=5	{ "statuscode": 500, "msg": "Invalid input values" }
+**Error Case** Non-numeric input	**Example Request** /add?n1=abc&n2=5	**Response** { "statuscode": 500, "msg": "Invalid input values" }
 
-Division by zero	/div?n1=10&n2=0	{ "statuscode": 500, "msg": "Cannot divide by zero" }
+**Error Case** Division by zero	**Example Request** /div?n1=10&n2=0	**Response** { "statuscode": 500, "msg": "Cannot divide by zero" }
+
+**Error Case** Modulo by zero	**Example Request** /mod?n1=10&n2=0	**Response** { "statuscode": 500, "msg": "Modulus by zero is not allowed" }
+
+**Error Case** Square root of negative number	**Example Request** /sqrt?n1=-9	**Response** { "statuscode": 200, "data": "Square root of negative number is not allowed" }
+
+**Error Case** Exponentiation with invalid input	**Example Request** /exp?n1=xyz&n2=3	**Response** { "statuscode": 500, "msg": "Invalid value for n1" }
+
+**Error Case** Multiplication with invalid input	**Example Request** /mul?n1=abc&n2=5	**Response** { "statuscode": 500, "msg": "Invalid value for n1" }
+
+**Error Case** Parsing Error	**Example Request** /add?n1=xyz&n2=5	**Response** { "statuscode": 500, "msg": "Parsing Error" }
 
 **Logging**
 
