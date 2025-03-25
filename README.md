@@ -115,6 +115,7 @@ GET http://localhost:3040/mod?n1=10&n2=3
 
 Calculation:
 10 % 3 = 1
+
 Response:
 { "statuscode": 200, "data": 1 }
 
@@ -161,10 +162,14 @@ Error (Invalid Input):
 **How to Update & Push Changes to GitHub**
 
 Step 1: Commit & Push Your Code
+
 git add .
+
 git commit -m "Added calculator microservice"
+
 git push origin main
 
 Step 2: Verify on GitHub
+
 Visit: https://github.com/preethramadoss/sit737-2025-prac4c
 Ensure all files are correctly uploaded.
