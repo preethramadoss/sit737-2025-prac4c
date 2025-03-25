@@ -113,6 +113,7 @@ Successful Request:**
 {"level":"error","message":"Invalid value for n1","service":"calculator-project"}
 
 **How to Update & Push Changes to GitHub**
+
 Step 1: Commit & Push Your Code
 git add .
 git commit -m "Added calculator microservice"
