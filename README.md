@@ -42,6 +42,7 @@ Each endpoint accepts query parameters (n1 and n2).
 
 Request:
 GET http://localhost:3040/add?n1=10&n2=5
+
 Response:
 { "statuscode": 200, "data": 15 }
 
@@ -49,6 +50,7 @@ Response:
 
 Request:
 GET http://localhost:3040/sub?n1=20&n2=5
+
 Response:
 { "statuscode": 200, "data": 15 }
 
@@ -56,6 +58,7 @@ Response:
 
 Request:
 GET http://localhost:3040/mul?n1=3&n2=4
+
 Response:
 { "statuscode": 200, "data": 12 }
 
@@ -63,12 +66,14 @@ Response:
 
 Request:
 GET http://localhost:3040/div?n1=10&n2=2
+
 Response:
 { "statuscode": 200, "data": 5 }
 
 **Handling Division by Zero**
 
 GET http://localhost:3040/div?n1=10&n2=0
+
 Response:
 { "statuscode": 500, "msg": "Cannot divide by zero" }
 
@@ -79,6 +84,7 @@ Request:
 GET http://localhost:3040/exp?n1=2&n2=3
 Calculation:
 2^3 = 8
+
 Response:
 { "statuscode": 200, "data": 8 }
 
@@ -86,6 +92,7 @@ Response:
 
 Request:
 GET http://localhost:3040/sqrt?n1=25
+
 Calculation:
 √25 = 5
 Response:
@@ -94,6 +101,7 @@ Response:
 **Handling Negative Input for Square Root**
 
 GET http://localhost:3040/sqrt?n1=-9
+
 Response:
 { "statuscode": 200, "data": "Square root of negative number is not allowed" }
 
@@ -101,6 +109,7 @@ Response:
 
 Request:
 GET http://localhost:3040/mod?n1=10&n2=3
+
 Calculation:
 10 % 3 = 1
 Response:
@@ -109,6 +118,7 @@ Response:
 **Handling Modulo by Zero**
 
 GET http://localhost:3040/mod?n1=10&n2=0
+
 Response:
 { "statuscode": 500, "msg": "Modulus by zero is not allowed" }
 
