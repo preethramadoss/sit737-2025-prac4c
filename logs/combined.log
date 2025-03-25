@@ -1,0 +1,28 @@
+{"level":"info","message":"Server is running on port3040","service":"calculator-project"}
+{"level":"info","message":"New exponentiation operation requested: 10 and 10 parameters","service":"calculator-project"}
+{"level":"info","message":"Exponentiation Operation Parameters 10 and 10 is received","service":"calculator-project"}
+{"level":"info","message":"New square root operation requested: 25 and 100 parameters","service":"calculator-project"}
+{"level":"info","message":"Square Root Operation Parameters 25 and 100 is received","service":"calculator-project"}
+{"level":"info","message":"New square root operation requested: 64 and 100 parameters","service":"calculator-project"}
+{"level":"info","message":"Square Root Operation Parameters 64 and 100 is received","service":"calculator-project"}
+{"level":"info","message":"New modulo operation requested: 64 and 100 parameters","service":"calculator-project"}
+{"level":"info","message":"Modulo Operation Parameters 64 and 100 is received","service":"calculator-project"}
+{"level":"info","message":"Server is running on port3040","service":"calculator-project"}
+{"level":"info","message":"New exponentiation operation requested: 4 ^ 4 parameters","service":"calculator-project"}
+{"level":"info","message":"Exponentiation Operation Parameters 4 ^ 4 is received","service":"calculator-project"}
+{"level":"error","message":"Error Arised:ReferenceError: n2 is not defined","service":"calculator-project"}
+{"level":"info","message":"New modulo operation requested: 10 and 3 parameters","service":"calculator-project"}
+{"level":"info","message":"Modulo Operation Parameters 10 and 3 is received","service":"calculator-project"}
+{"level":"info","message":"Server is running on port3040","service":"calculator-project"}
+{"level":"info","message":"New square root operation requested: 25 parameters","service":"calculator-project"}
+{"level":"info","message":"Square Root Operation Parameters 25  is received","service":"calculator-project"}
+{"level":"info","message":"New square root operation requested: -25 parameters","service":"calculator-project"}
+{"level":"info","message":"Square Root Operation Parameters -25  is received","service":"calculator-project"}
+{"level":"info","message":"New exponentiation operation requested: 25 ^ 3 parameters","service":"calculator-project"}
+{"level":"info","message":"Exponentiation Operation Parameters 25 ^ 3 is received","service":"calculator-project"}
+{"level":"info","message":"New square root operation requested: 100 parameters","service":"calculator-project"}
+{"level":"info","message":"Square Root Operation Parameters 100  is received","service":"calculator-project"}
+{"level":"info","message":"New modulo operation requested: 10 and 3 parameters","service":"calculator-project"}
+{"level":"info","message":"Modulo Operation Parameters 10 and 3 is received","service":"calculator-project"}
+{"level":"info","message":"New square root operation requested: -100 parameters","service":"calculator-project"}
+{"level":"info","message":"Square Root Operation Parameters -100  is received","service":"calculator-project"}
