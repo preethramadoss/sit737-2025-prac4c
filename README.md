@@ -1,9 +1,14 @@
 **Calculator Major Project Microservice**
+
+
 **Overview**
 This microservice provides basic arithmetic operations (**addition, subtraction, multiplication, division**) along with **advanced operations** like **exponentiation, square root, and modulo** using REST API endpoints. It is built using **Node.js** and **Express**, with **Winston** for logging requests and errors.
 
+
 **Project Structure**
+
 **Installation & Setup**
+
 **Prerequisites**
 Ensure you have:
 -> [Node.js](https://nodejs.org/en/download/) installed (v14 or later).
@@ -82,6 +87,7 @@ Calculation:
 10 % 3 = 1
 Response:
 { "statuscode": 200, "data": 1 }
+
 **Handling Modulo by Zero**
 GET http://localhost:3040/mod?n1=10&n2=0
 Response:
@@ -97,7 +103,6 @@ Division by zero	/div?n1=10&n2=0	{ "statuscode": 500, "msg": "Cannot divide by z
 This project uses Winston to log:
 
 Requests to logs/combined.log
-
 Errors to logs/error.log
 
 **Example Log Entries
