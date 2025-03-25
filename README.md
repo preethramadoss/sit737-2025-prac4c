@@ -95,6 +95,7 @@ Response:
 
 **Error Handling**
 **Error Case	Example Request	Response**
+
 Missing n1 or n2	/add?n1=10	{ "statuscode": 500, "msg": "Invalid input values" }
 
 Non-numeric input	/add?n1=abc&n2=5	{ "statuscode": 500, "msg": "Invalid input values" }
