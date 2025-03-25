@@ -95,6 +95,7 @@ GET http://localhost:3040/sqrt?n1=25
 
 Calculation:
 √25 = 5
+
 Response:
 { "statuscode": 200, "data": 5 }
 
