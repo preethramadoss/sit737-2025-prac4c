@@ -77,7 +77,7 @@ Response:
 
 **Handling Negative Input for Square Root**
 GET http://localhost:3040/sqrt?n1=-9
-**Response:**
+Response:
 { "statuscode": 200, "data": "Square root of negative number is not allowed" }
 
 **Modulo (/mod)**
